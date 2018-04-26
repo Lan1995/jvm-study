@@ -6,9 +6,9 @@ import java.util.List;
 /**
  * @author qing.lan
  * @date 2018/4/26 14:31
- * @Description -Xms20M -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
+ * @Description -Xms20M -Xmx20m -XX:+HeapDumpOnOutOfMemoryError ，java堆 OOM
  */
-public class OOMexample1 {
+public class JavaHeapOOM {
 
     static class OOMObject{
 
